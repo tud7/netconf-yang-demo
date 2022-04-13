@@ -1,0 +1,9 @@
+<filter xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+    <turing-machine xmlns="http://example.net/turing-machine">
+        <transition-function>
+        <delta>
+            <label />
+        </delta>
+        </transition-function>
+    </turing-machine>
+</filter>
