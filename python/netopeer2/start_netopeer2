@@ -1,3 +1,8 @@
 #!/bin/bash
 
+# make sure docker daemon started
+# sudo systemctl start docker
+
 docker run -it --name netopeer2 -p 830:830 --rm sysrepo/sysrepo-netopeer2:v0.7.7
+
+#docker run -it --name netopeer2 -p 830:830 --rm sysrepo/sysrepo-netopeer2:latest
